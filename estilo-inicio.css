@@ -411,14 +411,17 @@ header {
 
 
 .vision {
-    padding: 100px 12%;
+    padding: 0px 10% 10% 10%;
 }
 
 .titulo-vision {
     font-size: 3.5rem;
     color: #d4b04c;
-    margin-bottom: 80px;
+    margin-bottom: 10%;
     font-weight: 500;
+    background: linear-gradient(120deg, #8c6b1f, #d4b04c, #8c6b1f);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 .item {
@@ -453,24 +456,19 @@ header {
     color: #e0dcd1;
 }
 
-.titulo-vision {
+
+
+.modelo-operativo {
+    padding: 0px 10% 10% 10%;
+}
+.modelo-operativo h1 {
+    font-size: 3.5rem;
+    color: #d4b04c;
+    margin-bottom: 10%;
+    font-weight: 500;
     background: linear-gradient(120deg, #8c6b1f, #d4b04c, #8c6b1f);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-}
-
-
-
-
-body {
-    margin: 0;
-    background-color: #000;
-    font-family: 'Cormorant Garamond', serif;
-    color: #e6d8a8;
-}
-
-.modelo-operativo {
-    padding: 80px 10%;
 }
 
 .modelo-operativo h1 {
@@ -594,4 +592,115 @@ body {
     bottom: 25%;
     right: 25%;
     transform: translate(50%, 50%);
+}
+
+
+
+.proyecto {
+  padding: 10% 10%;
+}
+.proyecto h1 {
+    font-size: 3.5rem;
+    color: #d4b04c;
+    margin-bottom: 4%;
+    font-weight: 500;
+    background: linear-gradient(120deg, #8c6b1f, #d4b04c, #8c6b1f);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.proyecto h2 {
+    font-size: 2.5rem;
+    color: #d4b04c;
+    margin-bottom: 6%;
+    font-weight: 300;
+    background: linear-gradient(120deg, #8c6b1f, #d4b04c, #8c6b1f);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.proyecto p {
+    font-size: 1.1rem;
+    line-height: 1.8;
+    max-width: 750px;
+    color: #e0dcd1;
+}
+
+
+
+.ventajas {
+  padding: 0px 10% 10% 10%;
+}
+
+.ventajas h2 {
+    font-size: 3.5rem;
+    color: #d4b04c;
+    margin-bottom: 10%;
+    font-weight: 500;
+    background: linear-gradient(120deg, #8c6b1f, #d4b04c, #8c6b1f);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.grid-ventajas {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 30px;
+}
+
+.card {
+  background-color: #3f3f3f;
+  padding: 30px;
+  border-radius: 6px;
+}
+
+.card h3 {
+  color: #e0dcd1;
+  font-size: 26px;
+  font-weight: 500;
+  margin-bottom: 15px;
+}
+
+.card p {
+  color: #cfcfcf;
+  font-size: 18px;
+  line-height: 1.6;
+}
+
+@media (max-width: 768px) {
+  .grid-ventajas {
+    grid-template-columns: 1fr;
+  }
+
+  .ventajas h2 {
+    font-size: 36px;
+  }
+}
+.info {
+    padding: 0px 10% 10% 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.info img{
+    width: 28%;
+    height: 28%;
+}
+.info h1{
+    color: #d4b04c;
+    margin-bottom: 4%;
+    font-weight: 500;
+    background: linear-gradient(120deg, #8c6b1f, #d4b04c, #8c6b1f);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.info h2{
+    color: #d4b04c;
+    margin-bottom: 4%;
+    font-weight: 500;
+    background: linear-gradient(120deg, #8c6b1f, #d4b04c, #8c6b1f);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.ventajas-inicio{
+    padding-top: 10%;
 }
