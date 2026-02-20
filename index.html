@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inicio | ELIITE</title>
+    <link rel="stylesheet" href="estilo-inicio.css">
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>    
+    <header>
+        <nav class="nav-menu" id="navMenu">
+            <button class="btn-cerrar" onclick="cerrarMenu()">✕</button>
+            <a href="#inicio">Lugares</a>
+            <a href="#servicios">Servicios</a>
+            <a href="#portafolio">Propietarios</a>
+            <a href="#contacto">info y contacto</a>
+        </nav>
+        <div class="overlay" id="overlay"></div>
+        <div class="logo">
+             <img src="Logo-ELIITE-logo.png" alt="Logo" class="logo">
+        </div>
+        <div>
+            <img src="Logo-ELIITE-palabra.png" alt="ELIITE" class="logo-palabra">
+        </div>
+        <button class="menu-toggle" id="menuToggle">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+    </header>
+
+    <main>
+
+        <section class="titulo-inicio">
+            <img src="fondo-inicial-avion.webp" alt="ELIITE" class="imagen-inicio">
+            <h1 class="h1-elegant">
+             PREMIUM GUEST EXPERIENCE
+            </h1>
+            <h2>LUXURY ACCOMMODATIONS WITH EXCLUSIVE SERVICES</h2>
+        </section>
+
+        <section class="responsive-inicio">
+            <div class="card-rascacielo">
+                <h1>Alojamientos</h1>
+                <h2>Disponibles</h2>
+                <button class="btn-explorar-alojamientos">
+                    <span class="texto-gradiente">EXPLORAR</span>
+                </button>
+                <img src="rascacielos.webp" alt="alojamientos" class="img-alojamientos">
+            </div>
+            <div class="card-servicio">
+                <h1>Servicios</h1>
+                <h2>Disponibles</h2>
+                <button class="btn-explorar-servicios">
+                    <span class="texto-gradiente">EXPLORAR</span>
+                </button>
+                <img src="servicios.webp" alt="alojamientos" class="img-servicios">
+            </div>
+           <section class="vision">
+                <h2 class="titulo-vision">Visión del Proyecto:</h2>          
+                <div class="item">
+                    <div class="icono">
+                        <!-- Corona -->
+                        <svg viewBox="0 0 24 24" fill="none" stroke="#d4b04c" stroke-width="1.5">
+                            <path d="M3 7l4 4 5-6 5 6 4-4v10H3V7z"/>
+                        </svg>
+                    </div>
+                    <div class="texto">
+                        <h3>Exclusividad</h3>
+                        <p>
+                            Plataforma de lujo para viajeros exigentes con experiencias personalizadas.
+                            Enfocado principalmente a “business traveler”.
+                        </p>
+                    </div>
+                </div>       
+                <div class="item">
+                    <div class="icono">
+                        <!-- Edificio -->
+                        <svg viewBox="0 0 24 24" fill="none" stroke="#d4b04c" stroke-width="1.5">
+                            <rect x="4" y="3" width="16" height="18" rx="2"/>
+                            <path d="M8 7h2M14 7h2M8 11h2M14 11h2M8 15h2M14 15h2"/>
+                        </svg>
+                    </div>
+                    <div class="texto">
+                        <h3>Expansión</h3>
+                        <p>
+                            Meta inicial ambiciosa a un año vista de hasta 5 destinos potencialmente turísticos
+                            (Dubai, Buenos Aires, Miami, Panamá y Paraguay).
+                        </p>
+                    </div>
+                </div>           
+                <div class="item">
+                    <div class="icono">
+                        <!-- Gráfico -->
+                        <svg viewBox="0 0 24 24" fill="none" stroke="#d4b04c" stroke-width="1.5">
+                            <path d="M4 20V10M10 20V4M16 20v-8M22 20H2"/>
+                        </svg>
+                    </div>
+                    <div class="texto">
+                        <h3>Rentabilidad</h3>
+                        <p>
+                            Alto porcentaje de rendimiento superior al del alquiler turístico tradicional.
+                            Sustentado por nuestra amplia carta de servicios personalizados y exclusivos de lujo.
+                        </p>
+                    </div>
+                </div>
+            </section>
+            <section class="modelo-operativo">           
+                <h1>Modelo Operativo</h1>           
+                <div class="contenido">               
+                    <!-- Columna Izquierda -->
+                    <div class="columna">
+                        <div class="bloque">
+                            <h2>Tecnología Propietaria</h2>
+                            <p>
+                                Sistema avanzado de gestión y optimización dinámica de precios.
+                                Continua actualización sobre nuestro valor añadido y precio de mercado.
+                            </p>
+                        </div>                  
+                        <div class="bloque">
+                            <h2>Alianzas Estratégicas</h2>
+                            <p>
+                                Colaboraciones con servicios exclusivos locales para experiencias únicas.
+                                Tales como transporte.
+                            </p>
+                        </div>
+                    </div>
+                    <!-- Círculo Central -->
+                    <div class="circulo-contenedor">
+                        <div class="circulo">
+
+                            <div class="icono icono1">
+                                <i class="fa-solid fa-laptop"></i>
+                            </div>
+                        
+                            <div class="icono icono2">
+                                <i class="fa-solid fa-user"></i>
+                            </div>
+                        
+                            <div class="icono icono3">
+                                <i class="fa-solid fa-handshake"></i>
+                            </div>
+                        
+                            <div class="icono icono4">
+                                <i class="fa-solid fa-bullhorn"></i>
+                            </div>
+                        
+                            <div class="centro"></div>
+                        </div>
+                    </div>
+                    <!-- Columna Derecha -->
+                    <div class="columna">
+                        <div class="bloque">
+                            <h2>Equipos Locales</h2>
+                            <p>
+                                Personal especializado en cada ciudad para atención directa inmediata.
+                                Servicio exclusivo y personalizado único.
+                            </p>
+                        </div>
+                        <div class="bloque">
+                            <h2>Marketing Digital</h2>
+                            <p>
+                                Estrategias geolocalizadas para captación de huéspedes premium.
+                                Amplia cartera de clientes potenciales.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            
+
+        </section>
+    </main>
+    <script src="script-inicio.js"></script>
+</body>
+</html>
