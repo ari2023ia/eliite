@@ -641,7 +641,8 @@ header{
 
 @media (max-width: 468px) { 
   #slide1 {
-        background-size: 332%;
+        background-size: 308%;
         background-position: center center;
   }
 }
+
