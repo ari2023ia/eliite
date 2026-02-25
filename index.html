@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inicio | ELIITE</title>
+    <link rel="icon" type="image/png" href="Logo-ELIITE-logo.png">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+
+    <div class="contenedor1">    
+        <img src="fondo-inicial-avion.webp" alt="ELIITE" class="imagen-inicio">
+        <header>
+        
+        <nav class="nav-menu" id="navMenu">
+            <button class="btn-cerrar" onclick="cerrarMenu()">✕</button>
+            <a href="#inicio">Lugares</a>
+            <a href="#servicios">Servicios</a>
+            <a href="#portafolio">Propietarios</a>
+            <a href="#contacto">info y contacto</a>
+        </nav>
+        <div class="overlay" id="overlay"></div>
+        <div class="logo">
+             <img src="Logo-ELIITE-logo.png" alt="Logo" class="logo">
+        </div>
+        <div>
+            <img src="Logo-ELIITE-palabra.png" alt="ELIITE" class="logo-palabra">
+        </div>
+        <button class="menu-toggle" id="menuToggle">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+        </header>
+        <section class="titulo-inicio">
+            <h1 class="h1-elegant">
+             BUSINESS TRAVEL & WELLNESS
+            </h1>
+        </section>
+    </div>
+
+    <div class="contenedor-img">
+        <section class="opciones-inicio">
+            <div class="card-rascacielo" style="margin-bottom: 20px;">
+                <h1>Alojamientos</h1>
+                <h2>Disponibles</h2>
+                <button class="btn-explorar-alojamientos">
+                    <span class="texto-gradiente">EXPLORAR</span>
+                </button>
+                <img src="alojamientos.png" alt="alojamientos-disponibles" class="img-alojamientos">
+            </div>
+            <div class="card-servicio">
+                <h1>Experiencias</h1>
+                <h2>Premium</h2>
+                <button class="btn-explorar-servicios">
+                    <span class="texto-gradiente">EXPLORAR</span>
+                </button>
+                <img src="experiencias.png" alt="experiencias-premium" class="img-servicios">
+            </div>
+        </section>
+    </div>
+
+    <div class="slider-container">
+      <button class="nav prev">&#10094;</button>
+      <button class="nav next">&#10095;</button>
+
+      <div class="slider-track">
+      
+        <!-- Slide 1 -->
+        <section class="slide active" id="slide1" style="background-image: url('fondo-diapositivas.webp'); background-size: cover; background-position: center; background-repeat: no-repeat;">
+          <div class="slide-content">
+            <!-- Slide vacío, fondo solo -->
+          </div>
+        </section>
+      
+        <!-- Slide 2 -->
+        <section class="slide" id="slide2">
+          <div class="slide-content">
+            <h1 class="fade-up vision">Proyecto Premium:</h1>
+            <h1 class="fade-up delay-1" id="vision1">Alquiler turístico global</h1>
+            <p class="fade-up delay-1 texto">Presentamos nuestra estrategia inicial de expansión en cinco destinos exclusivos:</p>
+            <p class="fade-up delay-1 texto">Dubai - Buenos Aires - Miami - Panamá - Paraguay.</p>
+            <p class="fade-up delay-1 texto">Una oportunidad única de valor añadido respaldada por nuestro equipo experto en alquileres premium.</p>
+          </div>
+        </section>
+      
+        <!-- Slide 3 -->
+        <section class="slide" id="slide3">
+          <div class="slide-content">
+            <h1 class="fade-up vision">Visión del Proyecto:</h1>
+            <h2 class="fade-up">Exclusividad</h2>
+            <p class="fade-up delay-1 texto">Plataforma de lujo para viajeros exigentes con experiencias personalizadas, enfocado principalmente a "business traveler".</p>
+            <h2 class="fade-up">Expansión</h2>
+            <p class="fade-up delay-1 texto">Meta inicial ambiciosa a un año vista de hasta 5 destinos potencialmente turísticos (Dubai, Buenos Aires, Miami, Panamá y Paraguay).</p>
+            <h2 class="fade-up">Rentabilidad</h2>
+            <p class="fade-up delay-1 texto">Alto porcentaje de rendimiento superior al del alquiler turístico tradicional. Sustentado por nuestra amplia carta de servicios personalizados y exclusivos de lujo.</p>
+          </div>
+        </section>
+      
+        <!-- Slide 4 -->
+        <section class="slide" id="slide4">
+          <div class="slide-content">
+            <h1 class="fade-up vision">Ventajas para los huéspedes</h1>
+            <div class="grid-ventajas">
+              <div class="card">
+                <h3 class="fade-up delay-1">Atención personalizada</h3>
+                <p>Horarios flexibles, servicio de transporte VIP, canasta de bienvenida, compras personalizadas, atención al cliente 24/7, amenities personalizados y mucho más.</p>
+              </div>
+              <div class="card">
+                <h3>Flexibilidad y seguridad</h3>
+                <p>Servicios adaptados individualmente a las necesidades de cada huésped. Respaldada por nuestro equipo experto en alquileres premium.</p>
+              </div>
+            </div>
+          </div>
+        </section>
+      
+        <!-- Slide 5 -->
+        <section class="slide" id="slide5">
+          <div class="slide-content">
+            <h2 class="vision">Ventajas para Propietarios</h2>
+            <div class="grid-ventajas">
+              <div class="card">
+                <h3>Rentabilidad Superior</h3>
+                <p>Ingresos elevados con difusión propia y en las plataformas de mayor rentabilidad.</p>
+              </div>
+              <div class="card">
+                <h3>Flexibilidad</h3>
+                <p>Contratos adaptados individualmente a las necesidades de cada propietario, con disponibilidad para uso personal.</p>
+              </div>
+            </div>
+          </div>
+        </section>
+      
+        <!-- Slide 6 -->
+        <section class="slide" id="slide6">
+          <div class="slide-content">
+            <h1 class="fade-up" id="modelo-operativo">Modelo Operativo</h1>
+            <h3 id="operativa">Tecnología propia:</h3> <p id="texto">Sistema avanzado de gestión. Continua actualización sobre nuestro valor añadido y precio de mercado.</p>
+            <h3 id="operativa">Alianzas estratégicas:</h3> <p id="texto">Colaboraciones con servicios exclusivos locales para experiencias únicas.</p>
+            <h3 id="operativa">Equipos locales:</h3> <p id="texto">Personal especializado en cada ciudad para atención directa inmediata.</p>
+            <h3 id="operativa">Marketing:</h3> <p id="texto">Estrategias geolocalizadas para captación de huéspedes premium. Amplia cartera de clientes potenciales.</p>
+          </div>
+        </section>
+      
+        <!-- Indicadores -->
+        <div class="indicators">
+          <span class="dot active"></span>
+          <span class="dot"></span>
+          <span class="dot"></span>
+          <span class="dot"></span>
+          <span class="dot"></span>
+          <span class="dot"></span>
+        </div>
+      
+      </div>
+    </div>
+
+    <section class="info">
+      <div>
+        <h1>Información y contacto</h1>
+        <h2>infopropietarios@eliite.es</h2>
+        <h2>+34 607560526</h2>
+          <div class="iconos-redes-sociales">
+          <a href="https://wa.me/34607560526?text=hola%20quisiera%20informacion%20de" target="_blank" style="width: 20vw;height: 20vh; margin-top: 12px;">
+            <img src="https://cdn-icons-png.flaticon.com/512/733/733585.png" alt="WhatsApp" class="small-icon">
+          </a>
+        </div>
+      </div>
+      <img src="Logo-ELIITE-pro.png">
+    </section>
+
+    <section class="derechos-reservados">
+      <p>@derechos reservados</p>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
