@@ -628,4 +628,20 @@ header{
     color: #e0dcd1;
     text-align: center;
     margin-top: -50px;
+
+}
+
+
+#slide1{
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+
+@media (max-width: 468px) { 
+  #slide1 {
+        background-size: 332%;
+        background-position: center center;
+  }
 }
