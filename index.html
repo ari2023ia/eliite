@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inicio | ELIITE</title>
+    <link rel="icon" type="image/png" href="Logo-ELIITE-logo.png">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+
+    <!-- ══════════ HERO DESKTOP ══════════ -->
+    <div class="contenedor1">    
+        <img src="fondo-inicial-avion.webp" alt="ELIITE" class="imagen-inicio">
+        <header class="cabecera">
+            <div class="logo">
+                 <img src="Logo-ELIITE-pro.png" alt="Logo" class="logo">
+            </div>
+            <div class="inicio1">
+                <nav class="iniciomenu">
+                    <a href="#inicio">Alojamientos</a>
+                    <a href="#servicios">Servicios</a>
+                    <a href="#propietarios">Propietarios</a>
+                </nav>
+                <h1 class="h1-elegant">BUSINESS TRAVEL & WELLNESS</h1>
+                <div class="barra-servicios">
+                    <button class="btn-servicio activo" data-cat="alojamiento"><i class="fa-solid fa-bed"></i><span>Alojamiento</span></button>
+                    <button class="btn-servicio" data-cat="vuelos"><i class="fa-solid fa-plane"></i><span>Vuelos</span></button>
+                    <button class="btn-servicio" data-cat="coches"><i class="fa-solid fa-car"></i><span>Alquiler de coches</span></button>
+                    <button class="btn-servicio" data-cat="atracciones"><i class="fa-solid fa-compass"></i><span>Atracciones</span></button>
+                    <button class="btn-servicio" data-cat="taxi"><i class="fa-solid fa-taxi"></i><span>Taxis aeropuerto</span></button>
+                </div>
+            </div>
+            <div class="iconos-redes-sociales">
+              <a href="https://wa.me/34607560526?text=hola%20quisiera%20informacion%20de" target="_blank">
+                <img src="wapp.png" alt="WhatsApp" class="small-icon">
+              </a>
+            </div>
+        </header>
+    </div>
+    
+    <!-- ══════════ HERO MÓVIL ══════════ -->
+    <div class="contenedor1celular">    
+        <img src="fondo-inicial-avion.webp" alt="ELIITE" class="imagen-iniciocelular">
+        <header class="celular">
+            <nav class="nav-menucelular" id="navMenu">
+                <button class="btn-cerrar" onclick="cerrarMenu()">✕</button>
+                <a href="#inicio">Lugares</a>
+                <a href="#servicios">Servicios</a>
+                <a href="#propietarios">Propietarios</a>
+                <a href="#contacto">info y contacto</a>
+            </nav>
+            <div class="overlaycelular" id="overlay"></div>
+            <div class="logocelular">
+                 <img src="Logo-ELIITE-logo.png" alt="Logo" class="logocelular">
+            </div>
+            <div>
+                <img src="Logo-ELIITE-palabra.png" alt="ELIITE" class="logo-palabracelular">
+            </div>
+            <button class="menu-togglecelular" id="menuToggle">
+                <span></span><span></span><span></span>
+            </button>
+        </header>
+        <section class="titulo-iniciocelular">
+            <h1 class="h1-elegant">BUSINESS TRAVEL & WELLNESS</h1>
+        </section>
+        <div class="barra-servicios-celular">
+            <button class="btn-servicio-cel activo" data-cat="alojamiento"><i class="fa-solid fa-bed"></i><span>Alojamiento</span></button>
+            <button class="btn-servicio-cel" data-cat="vuelos"><i class="fa-solid fa-plane"></i><span>Vuelos</span></button>
+            <button class="btn-servicio-cel" data-cat="coches"><i class="fa-solid fa-car"></i><span>Coches</span></button>
+            <button class="btn-servicio-cel" data-cat="atracciones"><i class="fa-solid fa-compass"></i><span>Atracciones</span></button>
+            <button class="btn-servicio-cel" data-cat="taxi"><i class="fa-solid fa-taxi"></i><span>Taxis</span></button>
+        </div>
+    </div>
+
+    <!-- ══════════ GALERÍA ══════════ -->
+    <div class="galeria-wrapper">
+
+      <!-- CARD ALOJAMIENTOS -->
+      <div class="card-galeria" id="card-alojamientos">
+        <div class="card-tab"><div class="tab-dot"></div><span class="tab-label">Alojamientos</span></div>
+        <div class="card-body">
+          <div class="slide activo" data-index="0">
+            <img src="alojamientos.png" alt="Alojamientos">
+            <div class="slide-content"><div class="slide-titulo">Alojamientos</div><div class="slide-linea"></div><div class="slide-descripcion">Descubre los destinos más exclusivos del mundo. Lujo, confort y experiencias únicas te esperan.</div><button class="slide-btn"><span>Explorar</span><svg width="14" height="14" viewBox="0 0 14 14" fill="none"><path d="M2 7h10M8 3l4 4-4 4" stroke="#C9A96E" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/></svg></button></div>
+          </div>
+          <div class="slide" data-index="1">
+            <img src="dubai.png" alt="Dubai">
+            <div class="slide-content"><div class="slide-titulo">Dubai</div><div class="slide-linea"></div><div class="slide-descripcion">La ciudad del futuro. Rascacielos icónicos, lujo sin límites y experiencias únicas en el desierto dorado.</div><button class="slide-btn"><span>Explorar</span><svg width="14" height="14" viewBox="0 0 14 14" fill="none"><path d="M2 7h10M8 3l4 4-4 4" stroke="#C9A96E" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/></svg></button></div>
+          </div>
+          <div class="slide" data-index="2">
+            <img src="argentina.jpg" alt="Argentina">
+            <div class="slide-content"><div class="slide-titulo">Argentina</div><div class="slide-linea"></div><div class="slide-descripcion">Tierra de tango, vinos y paisajes infinitos. Desde Buenos Aires hasta la inmensidad de la Patagonia.</div><button class="slide-btn"><span>Explorar</span><svg width="14" height="14" viewBox="0 0 14 14" fill="none"><path d="M2 7h10M8 3l4 4-4 4" stroke="#C9A96E" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/></svg></button></div>
+          </div>
+          <div class="slide" data-index="3">
+            <img src="miami.jpg" alt="Miami">
+            <div class="slide-content"><div class="slide-titulo">Miami</div><div class="slide-linea"></div><div class="slide-descripcion">Sol, playa y vida nocturna. La ciudad más latina de Estados Unidos te espera con los brazos abiertos.</div><button class="slide-btn"><span>Explorar</span><svg width="14" height="14" viewBox="0 0 14 14" fill="none"><path d="M2 7h10M8 3l4 4-4 4" stroke="#C9A96E" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/></svg></button></div>
+          </div>
+          <div class="slide" data-index="4">
+            <img src="panama.jpeg" alt="Panamá">
+            <div class="slide-content"><div class="slide-titulo">Panamá</div><div class="slide-linea"></div><div class="slide-descripcion">El cruce del mundo. Historia, naturaleza exuberante y una ciudad moderna en constante crecimiento.</div><button class="slide-btn"><span>Explorar</span><svg width="14" height="14" viewBox="0 0 14 14" fill="none"><path d="M2 7h10M8 3l4 4-4 4" stroke="#C9A96E" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/></svg></button></div>
+          </div>
+          <div class="slide" data-index="5">
+            <img src="paraguay.jpg" alt="Paraguay">
+            <div class="slide-content"><div class="slide-titulo">Paraguay</div><div class="slide-linea"></div><div class="slide-descripcion">Un destino auténtico en el corazón de Sudamérica, lleno de cultura, naturaleza y hospitalidad.</div><button class="slide-btn"><span>Explorar</span><svg width="14" height="14" viewBox="0 0 14 14" fill="none"><path d="M2 7h10M8 3l4 4-4 4" stroke="#C9A96E" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/></svg></button></div>
+          </div>
+          <div class="slide-numero"><strong class="num-actual">01</strong> / <span class="num-total">06</span></div>
+          <div class="flechas">
+            <button class="flecha-btn btn-prev"><svg width="18" height="18" viewBox="0 0 18 18" fill="none"><path d="M11 4L6 9l5 5" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/></svg></button>
+            <button class="flecha-btn btn-next"><svg width="18" height="18" viewBox="0 0 18 18" fill="none"><path d="M7 4l5 5-5 5" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/></svg></button>
+          </div>
+          <div class="indicadores"></div>
+          <div class="progreso-bar"></div>
+        </div>
+      </div>
+
+      <!-- CARD SERVICIOS -->
+      <div class="card-galeria" id="card-servicios">
+        <div class="card-tab"><div class="tab-dot"></div><span class="tab-label">Servicios</span></div>
+        <div class="card-body">
+          <div class="slide activo" data-index="0">
+            <img src="experiencias.png" alt="Experiencias premium">
+            <div class="slide-content"><div class="slide-titulo">Servicios</div><div class="slide-linea"></div><div class="slide-descripcion">Experiencias premium diseñadas para que tu viaje sea perfecto en cada detalle.</div><button class="slide-btn"><span>Explorar</span><svg width="14" height="14" viewBox="0 0 14 14" fill="none"><path d="M2 7h10M8 3l4 4-4 4" stroke="#C9A96E" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/></svg></button></div>
+          </div>
+          <div class="slide" data-index="1">
+            <img src="reservar-vuelo2.jfif" alt="Reservar vuelo">
+            <div class="slide-content"><div class="slide-titulo">Reservar vuelo</div><div class="slide-linea"></div><div class="slide-descripcion">Reserva tu vuelo al mejor precio con asistencia personalizada y opciones flexibles de fechas.</div><button class="slide-btn"><span>Explorar</span><svg width="14" height="14" viewBox="0 0 14 14" fill="none"><path d="M2 7h10M8 3l4 4-4 4" stroke="#C9A96E" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/></svg></button></div>
+          </div>
+          <div class="slide" data-index="2">
+            <img src="reservar-casa.jpg" alt="Reservar casa">
+            <div class="slide-content"><div class="slide-titulo">Reservar casa</div><div class="slide-linea"></div><div class="slide-descripcion">Encuentra y reserva el alojamiento perfecto, desde apartamentos hasta villas de lujo.</div><button class="slide-btn"><span>Explorar</span><svg width="14" height="14" viewBox="0 0 14 14" fill="none"><path d="M2 7h10M8 3l4 4-4 4" stroke="#C9A96E" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/></svg></button></div>
+          </div>
+          <div class="slide" data-index="3">
+            <img src="reservar-coche3.webp" alt="Reservar coche">
+            <div class="slide-content"><div class="slide-titulo">Reservar coche</div><div class="slide-linea"></div><div class="slide-descripcion">Alquila el vehículo ideal para moverte con libertad y comodidad durante todo tu viaje.</div><button class="slide-btn"><span>Explorar</span><svg width="14" height="14" viewBox="0 0 14 14" fill="none"><path d="M2 7h10M8 3l4 4-4 4" stroke="#C9A96E" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/></svg></button></div>
+          </div>
+          <div class="slide" data-index="4">
+            <img src="experiencias.png" alt="Flexitime">
+            <div class="slide-content"><div class="slide-titulo">Flexitime</div><div class="slide-linea"></div><div class="slide-descripcion">Gestiona tu tiempo con total flexibilidad. Organiza tu agenda y aprovecha cada momento al máximo.</div><button class="slide-btn"><span>Explorar</span><svg width="14" height="14" viewBox="0 0 14 14" fill="none"><path d="M2 7h10M8 3l4 4-4 4" stroke="#C9A96E" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/></svg></button></div>
+          </div>
+          <div class="slide" data-index="5">
+            <img src="welcomepack3.webp" alt="Welcomepack">
+            <div class="slide-content"><div class="slide-titulo">Welcomepack</div><div class="slide-linea"></div><div class="slide-descripcion">Recibe un pack de bienvenida personalizado con todo lo necesario para empezar tu experiencia.</div><button class="slide-btn"><span>Explorar</span><svg width="14" height="14" viewBox="0 0 14 14" fill="none"><path d="M2 7h10M8 3l4 4-4 4" stroke="#C9A96E" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/></svg></button></div>
+          </div>
+          <div class="slide" data-index="6">
+            <img src="cuna-silla3.webp" alt="Artículos para bebés">
+            <div class="slide-content"><div class="slide-titulo">Artículos para bebés</div><div class="slide-linea"></div><div class="slide-descripcion">Reserva cunas, sillas y todo el equipamiento necesario para que los más pequeños estén cómodos.</div><button class="slide-btn"><span>Explorar</span><svg width="14" height="14" viewBox="0 0 14 14" fill="none"><path d="M2 7h10M8 3l4 4-4 4" stroke="#C9A96E" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/></svg></button></div>
+          </div>
+          <div class="slide" data-index="7">
+            <img src="compras-personalizadas.webp" alt="Compras personalizadas">
+            <div class="slide-content"><div class="slide-titulo">Compras personalizadas</div><div class="slide-linea"></div><div class="slide-descripcion">Te ayudamos a encontrar y gestionar tus compras locales con un servicio completamente personalizado.</div><button class="slide-btn"><span>Explorar</span><svg width="14" height="14" viewBox="0 0 14 14" fill="none"><path d="M2 7h10M8 3l4 4-4 4" stroke="#C9A96E" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/></svg></button></div>
+          </div>
+          <div class="slide" data-index="8">
+            <img src="transporte-del-aeropuerto2.webp" alt="Transporte del aeropuerto">
+            <div class="slide-content"><div class="slide-titulo">Transporte del aeropuerto</div><div class="slide-linea"></div><div class="slide-descripcion">Traslados cómodos y puntuales desde y hacia el aeropuerto, sin esperas ni complicaciones.</div><button class="slide-btn"><span>Explorar</span><svg width="14" height="14" viewBox="0 0 14 14" fill="none"><path d="M2 7h10M8 3l4 4-4 4" stroke="#C9A96E" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/></svg></button></div>
+          </div>
+          <div class="slide-numero"><strong class="num-actual">01</strong> / <span class="num-total">09</span></div>
+          <div class="flechas">
+            <button class="flecha-btn btn-prev"><svg width="18" height="18" viewBox="0 0 18 18" fill="none"><path d="M11 4L6 9l5 5" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/></svg></button>
+            <button class="flecha-btn btn-next"><svg width="18" height="18" viewBox="0 0 18 18" fill="none"><path d="M7 4l5 5-5 5" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/></svg></button>
+          </div>
+          <div class="indicadores"></div>
+          <div class="progreso-bar"></div>
+        </div>
+      </div>
+
+    </div><!-- /galeria-wrapper -->
+
+
+    <!-- ══════════ SLIDER PROPIETARIOS (clases renombradas a pres-*) ══════════ -->
+    <div class="pres-container" id="propietarios">
+      <button class="pres-nav pres-prev">&#10094;</button>
+      <button class="pres-nav pres-next">&#10095;</button>
+
+      <div class="pres-track">
+
+        <section class="pres-slide pres-active" id="pslide1" style="background-image: url('fondo-diapositivas.webp');">
+          <div class="pres-content"></div>
+        </section>
+
+        <section class="pres-slide" id="pslide2">
+          <div class="pres-content">
+            <h1 class="pres-fade-up vision">Proyecto Premium:</h1>
+            <h1 class="pres-fade-up pres-delay-1" id="vision1">Alquiler turístico global</h1>
+            <p class="pres-fade-up pres-delay-1 texto">Presentamos nuestra estrategia inicial de expansión en cinco destinos exclusivos:</p>
+            <p class="pres-fade-up pres-delay-1 texto">Dubai - Buenos Aires - Miami - Panamá - Paraguay.</p>
+            <p class="pres-fade-up pres-delay-1 texto">Una oportunidad única de valor añadido respaldada por nuestro equipo experto en alquileres premium.</p>
+          </div>
+        </section>
+
+        <section class="pres-slide" id="pslide3">
+          <div class="pres-content">
+            <h1 class="pres-fade-up vision">Visión del Proyecto:</h1>
+            <h2 class="pres-fade-up">Exclusividad</h2>
+            <p class="pres-fade-up pres-delay-1 texto">Plataforma de lujo para viajeros exigentes con experiencias personalizadas, enfocado principalmente a "business traveler".</p>
+            <h2 class="pres-fade-up">Expansión</h2>
+            <p class="pres-fade-up pres-delay-1 texto">Meta inicial ambiciosa a un año vista de hasta 5 destinos potencialmente turísticos (Dubai, Buenos Aires, Miami, Panamá y Paraguay).</p>
+            <h2 class="pres-fade-up">Rentabilidad</h2>
+            <p class="pres-fade-up pres-delay-1 texto">Alto porcentaje de rendimiento superior al del alquiler turístico tradicional.</p>
+          </div>
+        </section>
+
+        <section class="pres-slide" id="pslide4">
+          <div class="pres-content">
+            <h1 class="pres-fade-up vision">Ventajas para los huéspedes</h1>
+            <div class="grid-ventajas">
+              <div class="card"><h3 class="pres-fade-up pres-delay-1">Atención personalizada</h3><p>Horarios flexibles, servicio de transporte VIP, canasta de bienvenida, compras personalizadas, atención al cliente 24/7, amenities personalizados y mucho más.</p></div>
+              <div class="card"><h3>Flexibilidad y seguridad</h3><p>Servicios adaptados individualmente a las necesidades de cada huésped. Respaldada por nuestro equipo experto en alquileres premium.</p></div>
+            </div>
+          </div>
+        </section>
+
+        <section class="pres-slide" id="pslide5">
+          <div class="pres-content">
+            <h2 class="vision">Ventajas para Propietarios</h2>
+            <div class="grid-ventajas">
+              <div class="card"><h3>Rentabilidad Superior</h3><p>Ingresos elevados con difusión propia y en las plataformas de mayor rentabilidad.</p></div>
+              <div class="card"><h3>Flexibilidad</h3><p>Contratos adaptados individualmente a las necesidades de cada propietario, con disponibilidad para uso personal.</p></div>
+            </div>
+          </div>
+        </section>
+
+        <section class="pres-slide" id="pslide6">
+          <div class="pres-content">
+            <h1 class="pres-fade-up" id="modelo-operativo">Modelo Operativo</h1>
+            <h3 class="operativa">Tecnología propia:</h3><p class="texto-operativa">Sistema avanzado de gestión. Continua actualización sobre nuestro valor añadido y precio de mercado.</p>
+            <h3 class="operativa">Alianzas estratégicas:</h3><p class="texto-operativa">Colaboraciones con servicios exclusivos locales para experiencias únicas.</p>
+            <h3 class="operativa">Equipos locales:</h3><p class="texto-operativa">Personal especializado en cada ciudad para atención directa inmediata.</p>
+            <h3 class="operativa">Marketing:</h3><p class="texto-operativa">Estrategias geolocalizadas para captación de huéspedes premium. Amplia cartera de clientes potenciales.</p>
+          </div>
+        </section>
+
+      </div><!-- /pres-track -->
+
+      <div class="pres-indicators">
+        <span class="pres-dot pres-dot-active"></span>
+        <span class="pres-dot"></span>
+        <span class="pres-dot"></span>
+        <span class="pres-dot"></span>
+        <span class="pres-dot"></span>
+        <span class="pres-dot"></span>
+      </div>
+    </div><!-- /pres-container -->
+
+    <!-- ══════════ CONTACTO ══════════ -->
+    <section class="info" id="contacto">
+      <div>
+        <h1>Información y contacto</h1>
+        <h2>infopropietarios@eliite.es</h2>
+        <h2>+34 607560526</h2>
+        <div class="iconos-redes-sociales">
+          <a href="https://wa.me/34607560526?text=hola%20quisiera%20informacion%20de" target="_blank" style="width:20vw;height:20vh;margin-top:12px;">
+            <img src="wapp.png" alt="WhatsApp" class="small-icon">
+          </a>
+        </div>
+      </div>
+      <img src="Logo-ELIITE-pro.png">
+    </section>
+
+    <section class="derechos-reservados">
+      <p>@derechos reservados</p>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
